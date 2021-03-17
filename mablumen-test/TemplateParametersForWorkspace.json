@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "mablumen-test"
+		},
+		"mablumen-test-WorkspaceDefaultSqlServer_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureMLService1_servicePrincipalKey": {
+			"value": ""
+		},
+		"mablumen-test-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://adfsynapsecanary.dfs.core.windows.net"
+		},
+		"AzureMLService1_properties_typeProperties_subscriptionId": {
+			"value": "1e42591f-1f0c-4c5a-b7f2-a268f6105ec5"
+		},
+		"AzureMLService1_properties_typeProperties_resourceGroupName": {
+			"value": "lijzhaFactory"
+		},
+		"AzureMLService1_properties_typeProperties_servicePrincipalId": {
+			"value": "fe273844-c808-40b8-ad85-94a46f737731"
+		},
+		"AzureMLService1_properties_typeProperties_tenant": {
+			"value": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+		}
+	}
+}
