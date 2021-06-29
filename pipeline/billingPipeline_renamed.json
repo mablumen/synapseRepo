@@ -1,5 +1,5 @@
 {
-	"name": "billingPipeline",
+	"name": "billingPipeline_renamed",
 	"properties": {
 		"activities": [
 			{
@@ -35,6 +35,7 @@
 						"type": "DelimitedTextSource",
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
+							"recursive": true,
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
