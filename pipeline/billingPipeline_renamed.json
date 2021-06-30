@@ -36,6 +36,7 @@
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
 							"recursive": true,
+							"wildcardFileName": "moviesDB.csv",
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
