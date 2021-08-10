@@ -1,6 +1,8 @@
 {
 	"name": "billingNotebook",
 	"properties": {
+		"nbformat": 0,
+		"nbformat_minor": 0,
 		"bigDataPool": {
 			"referenceName": "mablumenPool",
 			"type": "BigDataPoolReference"
@@ -42,9 +44,8 @@
 				"nodeCount": 10,
 				"cores": 8,
 				"memory": 56,
-				"automaticScaleJobs": false
-			},
-			"sessionKeepAliveTimeout": 30
+				"extraHeader": null
+			}
 		},
 		"cells": [
 			{
@@ -52,6 +53,7 @@
 				"source": [
 					"print('hello')"
 				],
+				"attachments": null,
 				"execution_count": null
 			}
 		]
