@@ -1,0 +1,19 @@
+{
+	"name": "pq_do_nothing",
+	"properties": {
+		"type": "WranglingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"name": "moviesDS",
+					"script": "source(allowSchemaDrift: true,\n\tvalidateSchema: false,\n\tignoreNoFilesFound: false) ~>  moviesDS",
+					"dataset": {
+						"referenceName": "moviesDS",
+						"type": "DatasetReference"
+					}
+				}
+			],
+			"script": "section Section1;\r\nshared moviesDS = let\r\n  AdfDoc = AzureStorage.BlobContents(\"https://mablumenadf.blob.core.windows.net/movies/123test.csv\"),\r\n  Csv = Csv.Document(AdfDoc, [Delimiter = \",\", Encoding = TextEncoding.Utf8, QuoteStyle = QuoteStyle.Csv])\r\nin\r\n  Csv;\r\nshared UserQuery = let\r\n  Source = moviesDS\r\nin\r\n  Source;\r\n"
+		}
+	}
+}
