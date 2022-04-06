@@ -263,7 +263,7 @@
 			"dependsOn": []
 		},
 		{
-			"name": "[concat(parameters('workspaceName'), '/billingPipeline_renaming')]",
+			"name": "[concat(parameters('workspaceName'), '/billingPipeline_renamed_again')]",
 			"type": "Microsoft.Synapse/workspaces/pipelines",
 			"apiVersion": "2019-06-01-preview",
 			"properties": {
