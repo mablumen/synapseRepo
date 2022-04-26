@@ -17,6 +17,9 @@
 		"mablumen-test-WorkspaceDefaultSqlServer_connectionString": {
 			"value": ""
 		},
+		"linkedService1_password": {
+			"value": ""
+		},
 		"AzureMLService1_properties_typeProperties_subscriptionId": {
 			"value": "1e42591f-1f0c-4c5a-b7f2-a268f6105ec5"
 		},
@@ -31,6 +34,9 @@
 		},
 		"mablumen-test-WorkspaceDefaultStorage_properties_typeProperties_url": {
 			"value": "https://adfsynapsecanary.dfs.core.windows.net"
+		},
+		"linkedService1_properties_typeProperties_userName": {
+			"value": "abc"
 		}
 	}
 }
