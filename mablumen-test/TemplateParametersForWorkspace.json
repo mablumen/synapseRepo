@@ -14,10 +14,10 @@
 		"AzureMLService1_servicePrincipalKey": {
 			"value": ""
 		},
-		"mablumen-test-WorkspaceDefaultSqlServer_connectionString": {
+		"linkedService1_password": {
 			"value": ""
 		},
-		"linkedService1_password": {
+		"mablumen-test-WorkspaceDefaultSqlServer_connectionString": {
 			"value": ""
 		},
 		"AzureMLService1_properties_typeProperties_subscriptionId": {
@@ -32,11 +32,11 @@
 		"AzureMLService1_properties_typeProperties_tenant": {
 			"value": "72f988bf-86f1-41af-91ab-2d7cd011db47"
 		},
-		"mablumen-test-WorkspaceDefaultStorage_properties_typeProperties_url": {
-			"value": "https://adfsynapsecanary.dfs.core.windows.net"
-		},
 		"linkedService1_properties_typeProperties_userName": {
 			"value": "abc"
+		},
+		"mablumen-test-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://adfsynapsecanary.dfs.core.windows.net"
 		}
 	}
 }
